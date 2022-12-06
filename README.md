@@ -1,1 +1,1 @@
-# -StudentSquareAP
+# StudentSquareAP
