@@ -30,11 +30,10 @@
     })
 
 }
-// flatpicker 
+
+
+// Menu Bar Onclick Event 
+
 {
-    config = {
-        enableTime: true,
-        plugins: [new confirmDatePlugin({})],
-    };
-    flatpickr("input[type=datetime-local]", config);
+
 }

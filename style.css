@@ -297,9 +297,25 @@
             margin-top: 10px;
             width: 100%;
             font-size: 14px;
+            overflow: hidden;
+            border: none !important;
+            transition: var(--globaltransition);
+            -webkit-transition: var(--globaltransition);
+            -moz-transition: var(--globaltransition);
+            -ms-transition: var(--globaltransition);
+            -o-transition: var(--globaltransition);
         }
         
-        .dashboard {}
+        .menuExpandActive .manuExpand {
+            height: 95px;
+            padding: 5px;
+            border: 2px solid;
+        }
+        
+        .dashboard {
+            padding: 4px 10px !important;
+            background: #ffffff75;
+        }
         
         .singleMenu {
             margin: 2px 0;
@@ -477,6 +493,7 @@
             backdrop-filter: blur(10px);
             border: 2px solid #cccccc;
             box-shadow: 0 0 80px #00000033;
+            outline-color: var(--green);
         }
         /* Popular Radion BTN */
         
@@ -694,17 +711,20 @@
             margin-top: 20px;
         }
         
-    .allInput input, .catagoryDdown, textarea, select {
-    width: 100%;
-    border: none;
-    border-radius: 5px;
-    padding: 8px;
-    background: #ffffff00;
-    -webkit-backdrop-filter: blur(30px);
-    backdrop-filter: blur(10px);
-    border: 2px solid #ffffff1a;
-    box-shadow: 0 0 80px #00000033;
-}
+        .allInput input,
+        .catagoryDdown,
+        textarea,
+        select {
+            width: 100%;
+            border: none;
+            border-radius: 5px;
+            padding: 8px;
+            background: #ffffff00;
+            -webkit-backdrop-filter: blur(30px);
+            backdrop-filter: blur(10px);
+            border: 2px solid #ffffff1a;
+            box-shadow: 0 0 80px #00000033;
+        }
         
         .a_b_date_input input,
         .a_b_highlight_input input {
@@ -747,7 +767,7 @@
             color: #d00404;
             font-size: 25px;
             font-weight: bold;
-            text-shadow: 0px 0px 2px #f00;
+            text-shadow: 0px 0px 2px #ff000069;
         }
         
         .notice {
