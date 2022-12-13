@@ -37,15 +37,8 @@
 <body>
     <div class="allbody">
         <!-- Body Heade Section  -->
-        <div class="head">
-            <!-- Logo Section  -->
-            <div class="logo">
-                <img src="./img/SS Landscape Logo.png" alt="" srcset="">
-            </div>
-            <!-- Log Out Section  -->
-            <div class="logInSection">
-                <button id="btnAdmin">Admin's Name</button>
-            </div>
+        <div id="head">
+            <!-- Data inject from js  -->
         </div>
 
         <!-- Body Container Section  -->
@@ -70,61 +63,8 @@
             <!-- Main Container Section  -->
             <div class="mainContainer">
                 <!-- Nav Menu Section  -->
-                <div class="navBarSection">
-                    <div class="navMenu">
-                        <!-- Blog Menu  -->
-                        <a href="index.html" class="singleMenu dashboard btnDashboard">Dashboard</a>
-                        <nav class="multipleMenu blog">
-                            <button>Blog</button>
-                            <nav class="manuExpand">
-                                <a href="b_add.html" class="singleMenu">Add</a>
-                                <a href="b_browseAll.html" class="singleMenu">Browse All</a>
-                                <a href="b_catagory.html" class="singleMenu btnCatagory_b">Category</a>
-                            </nav>
-                        </nav>
-                        <!-- Magazine Menu  -->
-                        <nav class="multipleMenu magazine">
-                            <button>Magazine</button>
-                            <nav class="manuExpand">
-                                <a href="m_add.html" class="singleMenu">Add</a>
-                                <a href="m_browseAll.html" class="singleMenu">Browse All</a>
-                                <a href="m_catagory.html" class="singleMenu btnCatagory_m">Category</a>
-                            </nav>
-                        </nav>
-                        <!-- Inspiring Menu  -->
-                        <nav class="multipleMenu inspiring">
-                            <button>Inspiring</button>
-                            <nav class="manuExpand">
-                                <a href="i_add.html" class="singleMenu">Add</a>
-                                <a href="i_browseAll.html" class="singleMenu">Browse All</a>
-                                <a href="i_catagory.html" class="singleMenu btnCatagory_i">Category</a>
-                            </nav>
-                        </nav>
-                        <!-- Counselling Menu  -->
-                        <nav class="multipleMenu counselling">
-                            <button>Counselling</button>
-                            <nav class="manuExpand">
-                                <a href="c_add.html" class="singleMenu">Add</a>
-                                <a href="c_browseAll.html" class="singleMenu">Browse All</a>
-                                <a href="c_catagory.html" class="singleMenu btnCatagory_c">Category</a>
-                            </nav>
-                        </nav>
-                        <!-- Footer News Menu  -->
-                        <nav class="multipleMenu news">
-                            <button>News</button>
-                            <nav class="manuExpand">
-                                <a href="n_add.html" class="singleMenu">Add</a>
-                                <a href="n_browseAll.html" class="singleMenu">Browse All</a>
-                                <a href="n_catagory.html" class="singleMenu btnCatagory_n">Category</a>
-                            </nav>
-                        </nav>
-                    </div>
-
-                    <div class="menuIcon2">
-                        <div class="tapClose">
-                            <i class="fa-solid fa-xmark"></i>
-                        </div>
-                    </div>
+                <div id="navBar">
+                    <!-- NavBar Inject from js  -->
                 </div>
 
                 <!-- Content Section  -->
@@ -424,8 +364,8 @@
 
             </div>
             <!-- Footer Section  -->
-            <div class="footerMainSection">
-                <p>2022 &#169 <span class="student">Student</span><span class="squer">Square</span></p>
+            <div id="footerSection">
+                <!-- Data Inject from js  -->
             </div>
         </div>
     </div>
@@ -438,6 +378,9 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
     <!-- BootStarp  -->
+    <script src="js/head.js"></script>
+    <script src="js/navBar.js"></script>
+    <script src="js/footer.js"></script>
     <script src="js/main.js"></script>
     <script src="js/jsForImg.js"></script>
 </body>

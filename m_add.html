@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="./components/styleForImg.css">
     <link rel="shortcut icon" href="img/SSsiteIcon.png" type="image/x-icon">
-    <title>News Add | Admin</title>
+    <title>Magazine Add | Admin</title>
 
     <!-- Fontawesome  -->
     <script src="https://kit.fontawesome.com/9674ac7627.js" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
 
 
     <style>
-        .add_n {
+        .add_m {
             background: #05050559;
             -webkit-backdrop-filter: blur(30px);
             backdrop-filter: blur(10px);
@@ -74,32 +74,22 @@
                         <i class="fa-solid fa-chevron-right"></i>
                     </div>
                     <div class="c_body b_add_c_body">
-                        <h1>Create News</h1>
+                        <h1>Create Magazine</h1>
                         <!-- Title  -->
                         <nav class="a_b_title_input allInput">
-                            <label for="title">Newspaper Name<Span class="star">*</Span></label>
-                            <input type="text" name="title" id="title" placeholder="Newspaper Name">
-                        </nav>
-                        <!-- Short Title  -->
-                        <nav class="a_b_title_input allInput">
-                            <label for="title">News Title<Span class="star">*</Span></label>
-                            <input type="text" name="title" id="title" placeholder="Short News Title">
+                            <label for="title">Magazine Title<Span class="star">*</Span></label>
+                            <input type="text" name="title" id="title" placeholder="Magazine Title">
                         </nav>
                         <!-- News Link  -->
                         <nav class="a_b_title_input allInput">
-                            <label for="title">News Link<Span class="star">*</Span></label>
-                            <input type="text" name="title" id="title" placeholder="News Link">
-                        </nav>
-                        <!-- Details  -->
-                        <nav class="a_b_details_input allInput">
-                            <label for="details">Description</label>
-                            <textarea name="details" id="details" rows="6" placeholder="Description "></textarea>
+                            <label for="title">Magazine Link<Span class="star">*</Span></label>
+                            <input type="text" name="title" id="title" placeholder="Magazine Link">
                         </nav>
 
-                        <!-- Blog Date   -->
+                        <!-- Magazine Date   -->
                         <nav class="a_b_date_input allInput">
-                            <label for="tags">News Date</label>
-                            <input type="datetime-local" name="" id="" placeholder="Blog Date">
+                            <label for="tags">Magazine Date</label>
+                            <input type="datetime-local" name="" id="" placeholder="Magazine Date">
                         </nav>
                         <!-- Slider Radion BTN  -->
                         <nav class="popular allInput slider_r_btn">
@@ -145,20 +135,20 @@
                                 <input id="file-upload" type="file" name="fileUpload" accept="image/*" />
 
                                 <label for="file-upload" id="file-drag">
-                                    <img id="file-image" src="#" alt="Preview" class="hidden">
-                                    <div id="start">
-                                        <i class="fa fa-download" aria-hidden="true"></i>
-                                        <div>Select a file or drag here</div>
-                                        <div id="notimage" class="hidden">Please select an image</div>
-                                        <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
-                                    </div>
-                                    <div id="response" class="hidden">
-                                        <div id="messages"></div>
-                                        <progress class="progress" id="file-progress" value="0">
-                                            <span>0</span>%
-                                        </progress>
-                                    </div>
-                                </label>
+                  <img id="file-image" src="#" alt="Preview" class="hidden">
+                  <div id="start">
+                    <i class="fa fa-download" aria-hidden="true"></i>
+                    <div>Select a file or drag here</div>
+                    <div id="notimage" class="hidden">Please select an image</div>
+                    <span id="file-upload-btn" class="btn btn-primary">Select a file</span>
+                  </div>
+                  <div id="response" class="hidden">
+                    <div id="messages"></div>
+                    <progress class="progress" id="file-progress" value="0">
+                      <span>0</span>%
+                    </progress>
+                  </div>
+                </label>
                             </nav>
                         </nav>
 
