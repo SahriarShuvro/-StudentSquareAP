@@ -20,13 +20,13 @@ navBar.innerHTML = `<div class="navBarSection">
                                 <a href="m_catagory.html" class="singleMenu btnCatagory_m">Catagory</a>
                             </nav>
                         </nav>
-                        <!-- Inspiring Menu  -->
+                        <!-- Student Profile Menu  -->
                         <nav class="multipleMenu inspiring">
-                            <button class="btnMultiple">Inspiring</button>
+                            <button class="btnMultiple">Student Profile</button>
                             <nav class="manuExpand">
-                                <a href="i_add.html" class="singleMenu add_i">Add</a>
-                                <a href="i_browseAll.html" class="singleMenu browseAll_i">Browse All</a>
-                                <a href="i_catagory.html" class="singleMenu btnCatagory btnCatagory_i">Catagory</a>
+                                <a href="s_add.html" class="singleMenu add_s">Add</a>
+                                <a href="s_browseAll.html" class="singleMenu browseAll_s">Browse All</a>
+                                <a href="s_catagory.html" class="singleMenu btnCatagory btnCatagory_s">Catagory</a>
                             </nav>
                         </nav>
                         <!-- Counselling Menu  -->
