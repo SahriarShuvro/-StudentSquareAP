@@ -1,5 +1,5 @@
 let navBar = document.getElementById('navBar');
-navBar.innerHTML = `<div class="navBarSection">
+navBar.innerHTML = `
                     <div class="navMenu">
                         <!-- Blog Menu  -->
                         <a href="index.html" class="singleMenu dashboard btnDashboard">Dashboard</a>
@@ -21,7 +21,7 @@ navBar.innerHTML = `<div class="navBarSection">
                             </nav>
                         </nav>
                         <!-- Student Profile Menu  -->
-                        <nav class="multipleMenu inspiring">
+                        <nav class="multipleMenu student">
                             <button class="btnMultiple">Student Profile</button>
                             <nav class="manuExpand">
                                 <a href="s_add.html" class="singleMenu add_s">Add</a>
@@ -53,5 +53,26 @@ navBar.innerHTML = `<div class="navBarSection">
                         <div class="tapClose">
                             <i class="fa-solid fa-xmark"></i>
                         </div>
-                    </div>
-                </div>`;
+                    </div>`;
+
+
+
+let btn_click = document.querySelectorAll(".btnMultiple");
+let responceAfterClick = document.querySelectorAll(".manuExpand");
+
+for (let i = 0; i < btn_click.length; i++) {
+    btn_click[i].addEventListener("click", (event) => {
+        for (let x = 0; x < responceAfterClick.length; x++) {
+            responceAfterClick[i].classList.toggle("active");
+        }
+    });
+}
+
+// btn_click.forEach(btnSingle => {
+//     btnSingle.addEventListener('click', function() {
+//         responceAfterClick.forEach((responce_After_Click) => {
+//             responce_After_Click.classList.toggle('active')
+//         });
+
+//     })
+// });
